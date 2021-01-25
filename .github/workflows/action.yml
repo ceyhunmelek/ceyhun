@@ -1,0 +1,6 @@
+- name: Deploy Github Page
+  uses: peaceiris/actions-gh-pages@v3.7.3
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: ./
+    cname: ceyhun.js.org
