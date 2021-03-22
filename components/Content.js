@@ -11,7 +11,6 @@ export default function IndexPage() {
         <img src={"/icons/location.svg"} width={18}/>
         <a className="block text-md leading-tight font-medium text-black">Istanbul</a>
       </div>
-      <p className="mt-2 text-gray-500">Probably, I will add some shit later.</p>
       <div className="flex mt-2 gap-3">
         <a href="mailto:ceyhunulasmelek@gmail.com">
           <img src={"/icons/mail.svg"} width="24" alt="Instagram"/>
