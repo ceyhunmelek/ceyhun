@@ -1,5 +1,11 @@
-const App = () => {
-  return <div>Ceyhun Melek</div>;
-}
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Card from "./components/Card";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+
+const App = () => <>
+  <Card />
+</>;
 
 export default App;
