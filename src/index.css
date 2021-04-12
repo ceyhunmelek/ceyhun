@@ -24,7 +24,7 @@ body { @apply overflow-hidden h-screen w-full }
 
 .card > .name {
   text-shadow: 0.20rem 0.20rem #000;
-  @apply text-white text-5xl
+  @apply text-white text-5xl text-center
 }
 
 .card > .title {
