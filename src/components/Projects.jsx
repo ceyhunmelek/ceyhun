@@ -13,7 +13,7 @@ const Projects = () => {
   }, []);
   return <div className="projects">
     <p className="title">Projects</p>
-    { projects.length > 0 && projects.map(project => <Project project={project} />) }
+    { projects.length > 0 && projects.map(project => <Project key={project.id} project={project} />) }
     { projects.length === 0 && <i className="fas fa-3x fa-spinner spinner" /> }
   </div>;
 };
