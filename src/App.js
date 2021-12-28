@@ -5,8 +5,6 @@ import Projects from "./components/Projects";
 
 const App = () => <>
   <Card />
-  <!--<About />-->
-  <!--<Projects />-->
 </>;
 
 export default App;
